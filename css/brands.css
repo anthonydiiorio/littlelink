@@ -11,7 +11,8 @@
 .button,button {
   color:var(--button-text,#000000);
   background-color:var(--button-background,transparent);
-	border:var(--button-border,none);
+	/*border:var(--button-border,none);*/
+	border:none;
 	transition:filter 0.2s ease,transform 0.2s ease;
 }
 
@@ -331,11 +332,18 @@
 	--button-background:#FFE01B;
 }
 
-/* Mastodon */
+/* Mastodon
 .button-mastodon {
 	--button-text:#ffffff;
 	--button-background:#17063B;
 	--button-border:1px solid #FFFFFF;
+}
+*/
+
+/* Mastodon */
+.button-mastodon {
+	--button-text:#ffffff;
+	  background-image: linear-gradient(to bottom, #6364FF, #563ACC);
 }
 
 /* Medium */
